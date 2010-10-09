@@ -8,12 +8,12 @@ Gem::Specification.new do |s|
   s.version     = Papervision3D::VERSION
   # s.platform    = Gem::Platform::RUBY
   # s.authors     = ["TODO: Write your name"]
-  # s.email       = ["TODO: Write your email address"]
-  # s.homepage    = "http://rubygems.org/gems/sprout-papervision"
-  s.summary     = %q{Write a gem summary}
+  s.email       = ["amoslanka@gmail.com"]
+  s.homepage    = "http://www.github.com/amoslanka/sprout-papervision3d"
+  s.summary     = %q{Papervision3D ActionScript 3 source wrapped in a Sprout::Specification for implementation into a sprout project and Gem::Specification for distribution as a gem.}
   # s.description = %q{TODO: Write a gem description}
 
-  # s.rubyforge_project = "sprout-papervision"
+  # s.rubyforge_project = "papervision3d"
 
   # s.files         = `git ls-files`.split("\n")
   # s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
@@ -22,6 +22,6 @@ Gem::Specification.new do |s|
   
   s.files = FileList['lib/**/*.rb', 'bin/*', '[A-Z]*', 'test/**/*'].to_a
 
-  s.add_dependency 'sprout' # '>= 1.0.2.pre'
+  s.add_dependency 'sprout', '>= 1.0.26.pre'
   
 end
