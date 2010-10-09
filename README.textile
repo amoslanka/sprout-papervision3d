@@ -35,6 +35,8 @@ The gem can be installed independently of a project entering this command:
 
 h3. Some Links
 
+* "Papervision3D Site":http://blog.papervision3d.org
+* "Papervision3D on GoogleCode":http://code.google.com/p/papervision3d/
 * "Sprouts Site":http://projectsprouts.org
 * "Sprouts on Github":http://github.com/lukebayes/project-sprouts
 * "flashsdk sprout on Github":http://github.com/lukebayes/sprout-flashsdk
